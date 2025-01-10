@@ -1,0 +1,76 @@
+
+.background-image {
+    background: url('image/1.png') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .login-box {
+    background: rgba(255, 255, 255, 0.039);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.87);
+    color: #ffffff;
+  }
+  
+  
+  .glossy-input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .glossy-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+ 
+  .glossy-button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: #182b52;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out ;
+    
+  }
+  
+  .glossy-button:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: #000;
+    text-decoration: none;
+  }
+  
+ 
+  .toggle-password {
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #182b52;
+  }
+  
+
+  .social-icons .social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #182b52;
+    transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+     
+  }
+  
+  .social-icons .social-icon:hover {
+    transform: scale(1.2);
+    color: #007bff;
+  }
+  
